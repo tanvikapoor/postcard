@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         
         messagetextfield.text = ""
         messagetextfield.resignFirstResponder()
+        //hides keyboard
         
         buttonsend.setTitle("MAIL SENT", forState: UIControlState.Normal)
     }
